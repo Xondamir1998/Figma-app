@@ -13,7 +13,7 @@ export default function Head() {
             <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.
             </p>
-            <button className='btn'>Place an Order</button>
+            <button id='btn'>Place an Order</button>
             <div style={{display:"flex", alignItems:"center"}}>
                 <img src={Star}/>
                 <h4>Trustpilot</h4>

@@ -3,12 +3,26 @@
     align-items: center;
     justify-content: space-between;
     padding: 150px 120px 150px 120px;
+    @media (min-width:750px) and (max-width:1050px) {
+        padding: 80px 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    @media (min-width:300px) and (max-width:750px) {
+        padding: 50px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
 }
 
 .content_5 h1{
     font-size: 60px;
     font-weight: 400;
-    width: 500px;
+    /* width: 500px; */
     line-height: 60px;
     color: #35B8BE;
 }
@@ -16,7 +30,7 @@
 .content_5 p{
     margin: 20px 0;
     font-size: 18px;
-    width: 520px;
+    /* width: 520px; */
     color:  #546285;
 }
 
@@ -30,4 +44,10 @@
     cursor: pointer;
     border-radius: 5px;
     margin: 20px 0;
+    @media (min-width:750px) and (max-width:1050px) {
+       margin: 60px 0px;
+    }
+    @media (min-width:300px) and (max-width:750px) {
+        margin: 60px 0px;
+      }
 }

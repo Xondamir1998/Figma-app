@@ -1,7 +1,9 @@
 .App {
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
 }
+

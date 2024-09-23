@@ -43,10 +43,10 @@ export default function Content_7() {
                 <div style={{fontSize:"18px"}}>
                     Built by <span style={{color:"#35B8BE", cursor:'pointer'}}>Flowbase</span> Powered by <span style={{color:"#35B8BE", cursor:'pointer'}}>Webflow</span>
                 </div>
-                <div style={{display:"flex", gap:"30px"}}>
+                <div style={{display:"flex", justifyContent:"space-between"}}>
                     <img src={Inst} alt='image'/>
                     <img src={Twitter} alt='image'/>
-                    <img src={YouTube} alt='image'/>
+                    <img style={{marginRight: '20px'}} src={YouTube} alt='image'/>
                 </div>
             </div>
 

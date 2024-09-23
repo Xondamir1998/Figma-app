@@ -1,12 +1,39 @@
 .content_3{
-    margin: 120px 120px;
+    width: 100%;
+    padding: 120px 120px;
+    @media (min-width:750px) and (max-width:1050px) {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    @media (min-width:300px) and (max-width:750px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .img_section{
+    width: 100%;
     padding: 20px 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    @media (min-width:750px) and (max-width:1050px) {
+        padding: 0 60px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    @media (min-width:300px) and (max-width:750px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 10px 30px;
+      }
 
 }
 #phone{
@@ -61,5 +88,16 @@
     color: white;
     margin: 60px 0;
     cursor: pointer;
-
 }
+.img_section>div{
+    width: 90%;
+    display: flex;
+    margin: 20px 0;
+    
+    @media (min-width:300px) and (max-width:750px) {
+        display: flex;
+        width: 100%;
+      }
+}
+
+

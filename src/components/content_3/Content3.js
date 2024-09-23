@@ -20,7 +20,7 @@ export default function Content_3(){
             </div>
 
             <div className='img_section'>
-                <div style={{display:"flex", width:"580px", padding:"20px"}}>
+                <div>
                     <img src={Burger1} alt="image" />
                     <div style={{padding:"0 20px"}}>
                         <div style={{display:"flex", justifyContent:"space-between"}}>
@@ -37,7 +37,7 @@ export default function Content_3(){
                     </div>
                 </div>
 
-                <div style={{display:"flex", width:"580px", padding:"20px"}}>
+                <div >
                     <img src={Burger2} alt="image" />
                     <div style={{padding:"0 20px"}}>
                         <div style={{display:"flex", justifyContent:"space-between"}}>
@@ -54,7 +54,7 @@ export default function Content_3(){
                     </div>
                 </div>
 
-                <div style={{display:"flex", width:"580px", padding:"20px"}}>
+                <div >
                     <img src={Burger3} alt="image" />
                     <div style={{padding:"0 20px"}}>
                         <div style={{display:"flex", justifyContent:"space-between"}}>
@@ -71,7 +71,7 @@ export default function Content_3(){
                     </div>
                 </div>
 
-                <div style={{display:"flex", width:"580px", padding:"20px"}}>
+                <div >
                     <img src={Burger4} alt="image" />
                     <div style={{padding:"0 20px"}}>
                         <div style={{display:"flex", justifyContent:"space-between"}}>
@@ -88,7 +88,7 @@ export default function Content_3(){
                     </div>
                 </div>
 
-                <div style={{display:"flex", width:"580px", padding:"20px"}}>
+                <div >
                     <img src={Burger5} alt="image" />
                     <div style={{padding:"0 20px"}}>
                         <div style={{display:"flex", justifyContent:"space-between"}}>
@@ -105,7 +105,7 @@ export default function Content_3(){
                     </div>
                 </div>
 
-                <div style={{display:"flex", width:"580px", padding:"20px"}}>
+                <div >
                     <img src={Burger6} alt="image" />
                     <div style={{padding:"0 20px"}}>
                         <div style={{display:"flex", justifyContent:"space-between"}}>
