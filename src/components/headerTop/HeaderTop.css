@@ -1,0 +1,19 @@
+.HeaderTop{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    height: 48px;
+    background-color: #35B8BE;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.top-header{
+    color: #ffffffd3;
+}
+
+.HeaderTop a{
+    cursor: pointer;
+}

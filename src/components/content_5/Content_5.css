@@ -1,0 +1,33 @@
+.content_5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 120px 150px 120px;
+}
+
+.content_5 h1{
+    font-size: 60px;
+    font-weight: 400;
+    width: 500px;
+    line-height: 60px;
+    color: #35B8BE;
+}
+
+.content_5 p{
+    margin: 20px 0;
+    font-size: 18px;
+    width: 520px;
+    color:  #546285;
+}
+
+.btnphone{
+    width: 220px;
+    height: 60px;
+    background-color: #35B8BE;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px 0;
+}

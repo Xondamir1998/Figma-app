@@ -1,0 +1,29 @@
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: #35B8BE;
+    font-weight: 400;
+}
+
+h4{
+    letter-spacing: 1.5px;
+    padding: 12px;
+}
+
+.cards img{
+    width: 300px;
+}
+p{
+    color: #546285;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+}
+
+.cards{
+    width: 280px;
+    height: 440px;
+    text-align: center;
+}

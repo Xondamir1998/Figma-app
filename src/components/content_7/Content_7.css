@@ -1,0 +1,21 @@
+.content_7{
+    height: 590px;
+}
+
+.content_77{
+    display: flex;
+    padding: 40px 120px;
+    justify-content: space-between;
+    line-height: 45px;
+
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 120px;
+}
+
+.icons img{
+    cursor: pointer;
+}
