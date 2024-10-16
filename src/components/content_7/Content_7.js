@@ -5,7 +5,7 @@ import Twitter from '../../images/IMAGEtwit.png';
 import YouTube from '../../images/IMAGEyt.png';
 
 
-export default function Content_7() {
+export default function Footer() {
     return (
         <div className="content_7">
             <div className='content_77'>

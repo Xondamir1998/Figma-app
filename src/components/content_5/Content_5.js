@@ -1,7 +1,7 @@
 import './Content_5.css';
 import Img from '../../images/image-7.png';
 
-export default function Content_5(){
+export default function Phone(){
     return (
         <div className="content_5">
             <div>

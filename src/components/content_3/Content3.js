@@ -6,7 +6,7 @@ import Burger4 from '../../images/burger4.png';
 import Burger5 from '../../images/burger5.png';
 import Burger6 from '../../images/burger6.png';
 
-export default function Content_3(){
+export default function Our_menu(){
     return (
         <div className="content_3">
             <h2>Browse our menu</h2>

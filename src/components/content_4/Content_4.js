@@ -1,7 +1,7 @@
 import './Content_4.css';
 import Img from '../../images/image-6.png';
 
-export default function Content_4() {
+export default function FAQ() {
     return (
         <div id='content_4'>
             <img src={Img}/>

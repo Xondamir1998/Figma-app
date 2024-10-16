@@ -3,7 +3,7 @@ import './Head.css';
 import Free from '../../images/image-1.png';
 import Star from '../../images/star.svg';
 
-export default function Head() {
+export default function Place_order() {
   return (
     <div id='Head'>
         <div>

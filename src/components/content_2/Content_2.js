@@ -3,7 +3,7 @@ import Img1 from '../../images/image-3.png';
 import Img2 from '../../images/image-4.png';
 import Img3 from '../../images/image-5.png';
 
-export default function Content_2() {
+export default function How_it_works() {
     return (
         <div className="content_2">
             <h2>How it works</h2>

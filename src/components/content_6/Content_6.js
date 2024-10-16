@@ -1,7 +1,7 @@
 import './Content_6.css';
 import IMG from '../../images/image-8.png';
 
-export default function Content_6() {
+export default function Order_now() {
     return (
         <div className="content_6">
             <img src={IMG} alt='image'/>

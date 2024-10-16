@@ -1,7 +1,7 @@
 import './Content_1.css';
 import Burger from '../../images/image-2.png';
 
-export default function Content_1() {
+export default function About_us() {
     return (
         <div id='content_1'>
         <div>
