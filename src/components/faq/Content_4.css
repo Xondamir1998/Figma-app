@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 150px 120px 150px 120px;
+    padding: 80px 120px 150px 120px;
     @media (min-width: 750px) and (max-width: 1050px) {
         padding: 80px 60px;
         display: flex;

@@ -14,14 +14,14 @@ import Footer from './components/footer/Content_7';
 function App() {
   return (
     <div className="App">
-      <HeaderTop/>
+      <div id='home'><HeaderTop/></div>
       <Navbar/>
       <Place_order/>
-      <About_us/>
-      <How_it_works/>
+      <div id='about_us'><About_us/></div>
+      <div id='how_works'><How_it_works/></div>
       <Our_menu/>
-      <FAQ/>
-      <Phone/>
+      <div id='faq'><FAQ/></div>
+      <div id='contact'><Phone/></div>
       <Order_now/>
       <Footer/>
     </div>

@@ -8,11 +8,11 @@ export default function Navbar() {
     <nav className="navbar">
       <img src={Logo} alt='Logo' />
       <ul className="navbar-menu">
-        <li><a href="#" style={{color:"#35B8BE"}}>Home</a></li>
-        <li><a href="#">Order</a></li>
-        <li><a href="#">Company</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home" style={{color:"#35B8BE"}}>Home</a></li>
+        <li><a href="#about_us">Company</a></li>
+        <li><a href="#how_works">Order</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li id='li'>
           <a href='#'><img src={Telega} alt='telejka' id='telejka'/></a>
         </li>
