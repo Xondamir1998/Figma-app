@@ -16,25 +16,30 @@ h4{
 p{
     color: #546285;
 }
-.card{
+.card {
     display: flex;
     justify-content: space-between;
     padding: 20px 120px;
-    @media (min-width:750px) and (max-width:1050px) {
+}
+
+/* Медиа-запросы для среднего экрана */
+@media (min-width: 750px) and (max-width: 1050px) {
+    .card {
         padding: 0 60px;
-        width: 100%;
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
-    @media (min-width:300px) and (max-width:750px) {
-        display: flex;
+}
+
+/* Медиа-запросы для маленького экрана */
+@media (max-width: 749px) {
+    .card {
         flex-direction: column;
-        width: 100%;
         padding: 10px 30px;
         align-items: center;
-      }
+    }
 }
+
 
 .cards{
     width: 280px;

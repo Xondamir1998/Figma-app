@@ -3,7 +3,7 @@ import Burger from '../../images/image-2.png';
 
 export default function About_us() {
     return (
-        <div id='content_1'>
+    <div id='content_1'>
         <div>
             <h1>The home of fresh products</h1>
             <p>

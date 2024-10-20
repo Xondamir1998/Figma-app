@@ -1,15 +1,6 @@
-.HeaderTop{
+.HeaderTop {
     width: 100%;
     display: flex;
-    @media (min-width:750px) and (max-width:1050px) {
-        padding: 0 60px;
-    }
-    @media (min-width:300px) and (max-width:750px) {
-        display: flex;
-        flex-direction: column;
-        padding: 10px 30px;
-        gap: 5px;
-    }
     justify-content: center;
     gap: 20px;
     align-items: center;
@@ -17,7 +8,27 @@
     background-color: #35B8BE;
     color: #ffffff;
     font-size: 14px;
+    @media (max-width:400px) {
+        height: 60px;
+    }
 }
+
+/* Медиа-запросы для среднего экрана */
+@media (min-width: 750px) and (max-width: 1050px) {
+    .HeaderTop {
+        padding: 0 60px;
+    }
+}
+
+/* Медиа-запросы для маленького экрана */
+@media (max-width: 749px) {
+    .HeaderTop {
+        flex-direction: column;
+        padding: 10px 30px;
+        gap: 5px;
+    }
+}
+
 
 .top-header{
     color: #ffffffd3;

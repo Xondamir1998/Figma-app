@@ -15,7 +15,7 @@ export default function Place_order() {
             </p>
             <button id='btn'>Place an Order</button>
             <div style={{display:"flex", alignItems:"center"}}>
-                <img src={Star}/>
+                <img id='star' src={Star}/>
                 <h4>Trustpilot</h4>
             </div>
             <p><span style={{color: "#35B8BE"}}>4.8 out of 5</span> based on 2000+ reviews</p>

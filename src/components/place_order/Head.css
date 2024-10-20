@@ -1,19 +1,29 @@
-#Head{
+#Head {
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 150px 120px 100px 120px;
-    @media (min-width:750px) and (max-width:1050px) {
+    @media (max-width:550px) {
+        margin-top: 200px;
+    }
+}
+
+/* Медиа-запросы для среднего экрана */
+@media (min-width: 750px) and (max-width: 1050px) {
+    #Head {
         padding: 0 60px;
-        display: flex;
         flex-direction: column;
     }
-    @media (min-width:300px) and (max-width:750px) {
-        display: flex;
-        flex-direction: column;
-        padding: 10px 30px;
-      }
 }
+
+/* Медиа-запросы для маленького экрана */
+@media (max-width: 749px) {
+    #Head {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+}
+
 
 #Head div{
     width: 50%;
@@ -35,14 +45,30 @@
 #Head h1{
     font-size: 60px;
     font-weight: 400;
-    /* width: 550px; */
     line-height: 60px;
+    @media (max-width:500px) {
+        font-size: 40px;
+    }
+}
+
+#star{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    @media (min-width:750px) and (max-width:1050px) {
+        width: 40px;
+        height: 40px;
+    }
+    @media (min-width:300px) and (max-width:750px) {
+        width: 35px;
+        height: 35px;
+      }
+    
 }
 
 #Head p{
     margin: 20px 0;
     font-size: 18px;
-    /* width: 520px; */
     color:  #546285;
     
 }

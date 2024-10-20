@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="content_7">
             <div className='content_77'>
                 <div>
-                    <img src={Location} alt='image' style={{cursor:'pointer'}}/>
+                    <img src={Location} alt='image' style={{cursor:'pointer'}} id='location'/>
                     <p style={{fontSize:"18px"}}>Takeaway & Delivery template</p>
                     <p>for small - medium busnisess</p>
                 </div>
@@ -30,7 +30,7 @@ export default function Footer() {
                     <p>Style Guide</p>
                     <p>Changelog</p>
                     <p>Licence</p>
-                    <p>Webflovw University</p>
+                    <p>Webflov University</p>
                  </div>
             
                 <div>
@@ -40,7 +40,7 @@ export default function Footer() {
             </div>
 
             <div className='icons'>
-                <div style={{fontSize:"18px"}}>
+                <div>
                     Built by <span style={{color:"#35B8BE", cursor:'pointer'}}>Flowbase</span> Powered by <span style={{color:"#35B8BE", cursor:'pointer'}}>Webflow</span>
                 </div>
                 <div style={{display:"flex", justifyContent:"space-between"}}>

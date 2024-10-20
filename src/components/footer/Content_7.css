@@ -18,6 +18,11 @@
     display: flex;
     justify-content: space-between;
     line-height: 45px;
+    @media (max-width:540px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
 
@@ -31,12 +36,31 @@
         padding: 50px 0px;
     }
     @media (min-width:300px) and (max-width:750px) {
-        padding: 20px 30px;
-        justify-content: center;
-        gap: 155px;
+        padding: 20px 0;
+        gap: 50px;
+
       }
 }
 
 .icons img{
     cursor: pointer;
+    margin: 4px;
+    @media (max-width:500px) {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+#location{
+    width: 60px;
+    height: 70px;
+    @media (max-width:540px){
+        margin-left: 80px;
+    }
+}
+
+.icons>div{
+    @media (max-width:540px){
+        font-size: 14px;
+    }
 }
